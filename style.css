@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9376e0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#nav .nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+#nav .nav-logo h3 {
+    font-size: 28px;
+}
+
+#nav .nav-logo h3 .awesome-span {
+    font-weight: 300;
+}
+
+#nav .nav-logo h3 .shop-span {
+    font-weight: 600;
+    color: #e893cf;
+}
+
+#nav .nav-logo img {
+    width: 100px;
+}
+
+#nav .nav-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#nav .nav-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nav .nav-items .login-item a {
+    color: black;
+}
+
+#nav .nav-items .login-item {
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 8px;
+}
+
+#banner {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #e6e9eb;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+
+.banner-content , .banner-img {
+    width: 50%;
+    text-align: center;
+}
+
+.banner-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.banner-content h1 {
+    background: linear-gradient(180deg, #9376e0, #e893cf);
+    background-clip: text;
+    font-size: 64px;
+    font-weight: 600;
+    color: transparent;
+}
+
+.banner-content h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.banner-icons {
+    margin-bottom: 24px;
+}
+
+.btn-primary {
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #e893cf;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner-btns button {
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.banner-btns button:hover {
+    background-color: #e893cf;
+    border-color: #9376e0;
+    color: #fff;
+}
+
+.banner-icons img {
+    padding: 0 10px;
+}
+
+#products {
+    margin-bottom: 100px;
+}
+
+#products h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.products-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.products-cards .card {
+    padding: 15px;
+    background-color: #e6e9eb;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.products-cards .card img {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.products-cards .card .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.products-cards .card .title h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.products-cards .card .title .icons i {
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 50%;
+    color: white;
+}
+
+.products-cards .card p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+#gallery {
+    margin-bottom: 100px;
+}
+
+#gallery h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.gallery-container {
+    padding: 20px;
+    background-color: #e6e9eb;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.gallery-container img {
+    width: 100%;
+    border: 2px solid #9376e0;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9376e0;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer img {
+    width: 42px;
+}
